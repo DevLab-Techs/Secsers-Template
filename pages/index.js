@@ -107,13 +107,7 @@ export default function Home({ users, orders }) {
 
   return (
     <main className="w-screen h-screen flex justify-center px-10">
-      <section
-        className={`w-[1100px] py-10 ${
-          router.asPath === "/"
-            ? "overflow-hidden"
-            : "overflow-y-auto overflow-x-hidden"
-        }`}
-      >
+      <section className="w-[1100px] py-10 overflow-y-auto overflow-x-hidden">
         <motion.nav
           initial={{ opacity: 0, y: -200 }}
           animate={{ opacity: 1, y: 0 }}
