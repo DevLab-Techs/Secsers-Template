@@ -108,7 +108,7 @@ export default function Home({ users, orders }) {
   return (
     <main className="w-screen h-screen flex justify-center px-10">
       <section
-        className={`w-[1100px] lg:pt-[104px] py-10 ${
+        className={`w-[1100px] py-10 ${
           router.asPath === "/"
             ? "overflow-hidden"
             : "overflow-y-auto overflow-x-hidden"
