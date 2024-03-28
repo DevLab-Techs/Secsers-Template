@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="text-center text-sm lg:text-base p-4 bg-gradient-secondary tracking-wider">
         2023 &copy;{" "}
         <a
-          href="https://devlab-tech.com"
+          href="https://www.devlab-tech.com"
           target="_blank"
           className="text-primary"
         >
